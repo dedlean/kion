@@ -73,25 +73,26 @@ img {
 	display: flex;
 }
 
-.header__flexbox__offer {
+.header__offer {
 	width: 40%;
 	margin-top: auto;
 	margin-bottom: auto;
 }
 
-.header__flexbox__offer_main-title {
+.header__offer_main-title {
 	font-size: 60px;
 }
 
-.header__flexbox__offer__text {
+.header__offer__text {
 	margin-top: 44px;
 	margin-bottom: 43px;
 	font-size: 21px;
 	color: #40494d;
 	font-family: Arial, sans-serif;
+	line-height: 1.5em;
 }
 
-.header__flexbox__img {
+.header__img {
 	margin-left: auto;
 }
 
@@ -106,4 +107,189 @@ img {
 
 .header__sponsors .container {
 	display: flex;
+}
+
+.product {
+	padding-top: 74px;
+	padding-bottom: 100px;
+}
+
+.product__flexbox {
+	display: flex;
+}
+
+.product__left {
+	width: 30%;
+}
+
+.product__left__title {
+	font-size: 60px;
+	margin-bottom: 28px;
+}
+
+.product__left__product-desc {
+	margin-top: 0;
+	line-height: 1.5em;
+	margin-bottom: 56px;
+}
+
+.product__right {
+	margin-left: auto;
+	width: 35%;
+	padding: 80px 80px 80px 80px;
+	background: #f3f7f4;
+}
+
+.product__right__title {
+	font-weight: 400;
+	font-size: 32px;
+	margin-bottom: 51px;
+}
+
+.product__right__text {
+	font-size: 18px;
+	line-height: 1.5em;
+	margin-bottom: 38px;
+}
+
+.product__right a {
+	display: block;
+	text-align: right;
+	font-weight: 700;
+	font-size: 18px;
+	text-decoration: none;
+	color: #283337;
+}
+
+.results {
+	padding: 224px 0 150px 0;
+	background: #f3f7f4;
+}
+
+.results__title {
+	display: block;
+	text-align: center;
+	font-size: 60px;
+	font-weight: 700;
+	font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+	margin-bottom: 76px;
+}
+
+.results__flexbox {
+	display: flex;
+}
+
+.results__flexbox {
+	text-align: center;
+}
+
+.results__flexbox div {
+	width: 270px;
+}
+
+.results__center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.results__obj {
+	font-size: 60px;
+	margin-bottom: 19px;
+}
+
+.results__desc {
+	line-height: 1.5em;
+	font-size: 16px;
+}
+
+.difference {
+	padding-top: 406px;
+	padding-bottom: 144px;
+}
+
+.difference__flexbox {
+	display: flex;
+}
+
+.difference__left {
+	width: 32%;
+}
+
+.difference__title {
+	font-size: 60px;
+	font-weight: 700;
+	margin-bottom: 43px;
+}
+
+.difference__text {
+	font-size: 18px;
+	margin-bottom: 24px;
+	line-height: 1.6em;
+}
+
+.difference__list-title {
+	text-transform: uppercase;
+	font-size: 11px;
+	letter-spacing: 2px;
+}
+
+.difference__list {
+	margin-top: 24px;
+	margin-bottom: 30px;
+}
+
+.difference__list li {
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+
+.difference__left a {
+	display: block;
+	font-weight: 700;
+	font-size: 18px;
+	text-decoration: none;
+	color: #283337;
+}
+
+.difference__right {
+	margin-left: auto;
+	display: block;
+}
+
+.built-for {
+	padding-bottom: 125px;
+	text-align: center;
+}
+
+.built-for__title {
+	font-size: 58px;
+	font-weight: 700;
+	margin-bottom: 86px;
+}
+
+.built-for__list {
+	display: flex;
+}
+
+.built-for__list li {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.request {
+	padding-top: 150px;
+	padding-bottom: 150px;
+	text-align: center;
+	background: #f3f7f4;
+}
+
+.request__title {
+	font-size: 60px;
+	font-weight: 700;
+	margin-bottom: 48px;
+}
+
+.request__text {
+	font-size: 33px;
+	margin-bottom: 65px;
 }
