@@ -303,6 +303,10 @@ img {
 	color: #cfd2d3;
 }
 
+.footer__flexbox {
+	display: flex;
+}
+
 .footer a {
 	color: #cfd2d3;
 	text-decoration: none;
@@ -341,4 +345,80 @@ img {
 
 .footer__left__logos li {
 	margin-right: 35px;
+}
+
+.footer__right {
+	margin-left: auto;
+}
+
+.footer__right__flexbox {
+	display: flex;
+	margin-bottom: 50px;
+}
+
+.footer__right__left-wrapper {
+	margin-right: 147px;
+}
+
+.footer__right__center-wrapper {
+	margin-right: 115px;
+}
+
+.footer__right__right-wrapper {
+	margin-right: 117px;
+}
+
+.footer__right__list {
+	margin-bottom: 40px
+}
+
+.footer__right__list li {
+	margin-bottom: 13px;
+}
+
+.footer__right__title {
+	color: #878d90;
+	font-size: 16px;
+	margin-bottom: 16px;
+	margin-top: 0;
+}
+
+.footer__right__logo {
+	align-self: start;
+}
+
+.footer__right__signup-form__title {
+	font-size: 19px;
+	font-weight: 500;
+}
+
+.footer__right__signup-form__input {
+	padding: 20px 347px 20px 39px;
+	border-radius: 4px;
+	margin-right: 20px;
+	font-size: 15px;
+	font-weight: 500;
+	margin-bottom: auto;
+	border: none;
+}
+
+.footer__right__signup-form__btn {
+	margin-bottom: 0 !important;
+	padding-top: 20px !important;
+	padding-bottom: 20px !important;
+}
+
+.footer__right__corp-info {
+	display: flex;
+	margin-top: 210px;
+	font-size: 13px;
+	color: #9fa4a6;
+}
+
+.footer__right__corp-info__license {
+	margin-right: 30px;
+}
+
+.footer__right__corp-info__copyright {
+	margin-left: auto;
 }
